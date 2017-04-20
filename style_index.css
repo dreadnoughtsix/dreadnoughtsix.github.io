@@ -1,0 +1,30 @@
+/* Style sheet for index.html
+ * Author: Clarenz James Caba
+ * Date: April 15, 2017
+ */
+
+* {
+    font-family: "Inconsolata";
+    font-size: 15px;
+}
+
+body {
+    max-height: 100%;
+    min-height: 100%;
+}
+
+#main_header {
+    font-size: 50px;
+    text-align: center;
+}
+
+#navbar a {
+    font-size: 20px;
+    text-align: left;
+    float: center;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
