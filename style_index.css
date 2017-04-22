@@ -15,7 +15,7 @@ body {
 }
 
 /* Main header */
-#header-name {
+#main-header{
     font-size: 3.25em;
     text-align: center;
     margin: 0;
@@ -23,13 +23,13 @@ body {
     padding-bottom: 0.5em;
 }
 
-#header-name a {
+#main-header a {
     color: black;
     text-decoration: none;
 
 }
 
-#header-name a:visited {
+#main-header a:visited {
     color: black;
 }
 
