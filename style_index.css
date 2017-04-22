@@ -40,19 +40,22 @@ body {
     padding-bottom: 1.05em;
 }
 
-#navbar a {
+#navbar li {
+    display: inline;
     font-size: 1.4em;
-    text-align: left;
+    text-align: center;
     float: center;
-    padding: 0.25em;
+    padding: 0.35em;
+}
+
+#navbar li a {
     text-decoration: none;
 }
 
-#navbar a:hover {
+#navbar li a:hover {
     color: red;
 }
 
 #navbar a:visited {
     color: blue;
 }
-
