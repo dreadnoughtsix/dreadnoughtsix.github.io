@@ -3,18 +3,20 @@
  * Date: April 15, 2017
  */
 html {
+    position: relative;
     height: 100%;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-height: 100%;
-    min-height: 100%;
-    background-color: #f2f2f2;
     font-size: 14px;
+    background-color: #f2f2f2;
+    margin: 0 0;
+
 }
 
 .main-header {
+    font-family: 'Raleway', sans-serif;
     font-size: 2.75em;    
     text-align: center;
     margin: 0;
@@ -50,6 +52,7 @@ body {
 }
 
 .navbar li a {
+    color: black;
     text-decoration: none;
 }
 
@@ -58,7 +61,7 @@ body {
 }
 
 .navbar a:visited {
-    color: blue;
+    color: black;
 }
 
 /* Redefine margining for the break*/
@@ -76,7 +79,7 @@ main {
     min-width: 50em;
     max-width: 80em;
     max-height: auto;
-    margin: auto;
+    margin: 2.5em auto;
     border-radius: 10px;
     box-shadow: 2.5px 2.5px 2.5px grey;
 }
