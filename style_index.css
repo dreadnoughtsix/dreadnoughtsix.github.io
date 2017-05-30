@@ -113,3 +113,33 @@ article {
     margin: 0;
     text-align: justify;
 }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 3.5em;
+    width: 100%;
+    background-color: #222;
+}
+
+footer ul {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+
+footer li {
+    position: absolute;
+    bottom: 1em;
+    display: inline;
+    color: white;
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+#github-brand {
+    right: 1.5em;
+    top: 0.7em;
+}
