@@ -8,27 +8,24 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles/index.css" rel="stylesheet">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">  
         <title>DreadnoughtSix's Dev Page</title>
     </head>
 
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
     <body>
-        <!-- Main navigation bar -->
-        <header>
-            <h1 class="main-header">
-                <a href="">
-                    dev/dreadnoughtsix
-                </a>
-            </h1>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#aboutme">about-me</a></li>
-                    <li><a href="#contactme">contact-me</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div id="header"></div>
 
         <!-- Main content -->
         <main>
@@ -61,13 +58,6 @@
         </article>
         </main>
 
-        <footer>
-            <ul>
-                <li>Thanks for stopping by!</li>
-                <li id="github-brand"><a href="http://www.github.com/dreadnoughtsix/dreadnoughtsix.github.io"><img src="images/GitHub-Mark-Light-32px.png" /></a></li>
-            </ul>
-
-        </footer>
-
+        <div id="footer"></div>
     </body>
 </html>
