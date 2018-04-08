@@ -11,8 +11,29 @@
     </head>
 
     <body>
-        <div id="header"></div>
+        <header></header>
 
-        <div id="footer"></div>
+        <div class="feature">
+            <article>
+                <div class="content-header">
+                    <h2 class="article-header">
+                        Contact Me
+                    </h2>
+                </div>
+                <p>
+                    Need to contact me? Feel free to email me using the contact form below (using <a href="https://formspree.io/">formspree.io</a>). Thank you!
+                </p>
+            </article>
+                <form method="POST" action="https://formspree.io/clarenz.caba@mail.utoronto.ca">
+                    <input name="email" placeholder="Your email" type="email">
+                    <textarea id="email-area" name="message" placeholder="Your message" rows="20" cols="100"></textarea>
+                    <button type="submit">Send</button>
+                    <!-- <div id="spacing"></div>  -->
+                </form>
+            </article>
+        </div>
+
+        <div id="spacing"></div>
+        <footer></footer>
     </body>
 </html>

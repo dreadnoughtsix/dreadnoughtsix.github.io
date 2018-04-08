@@ -97,18 +97,18 @@ br {
 }
 
 p {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 /* Start main section of page*/
-main {
+.feature {
     background-color: #fff;
     min-width: 50em;
     max-width: 80em;
     max-height: auto;
     margin: 2.5em auto;
     border-radius: 10px;
-    box-shadow: 2.5px 2.5px 2.5px grey;
+    box-shadow: 2.5px 2.5px 2.5px #444;
 }
 
 article {
@@ -116,8 +116,7 @@ article {
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-top: 0.5em;
-    margin-bottom: 10em;
-
+    padding-bottom: 0.5em;
 }
 
 .article-header {
@@ -130,11 +129,16 @@ article {
     font-weight: normal;
 }
 
-.main-content {
+.content-text {
     margin: 0;
     text-align: justify;
 }
 
+/* Hotfix */
+#spacing {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
 
 footer {
     position: absolute;
@@ -163,4 +167,23 @@ footer li {
 #github-brand {
     right: 1.5em;
     top: 0.7em;
+}
+
+#resume-items li {
+    margin-bottom: 0.5em;
+}
+
+form {
+    text-align: left;
+    margin: auto;
+    width: 96%;
+    padding-bottom: 20px;
+}
+
+#email-area {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    resize: none;
+    width: 100%;
+    height: 100%;
 }
