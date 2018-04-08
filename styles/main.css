@@ -3,38 +3,52 @@
  * Date: April 15, 2017
  * Modified: April 7, 2018
  */
+
+ /* start imports */
+
+ @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+
+ /* end imports */
+
 html {
     position: relative;
     min-height: 100%;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 17px;
     background-color: #f2f2f2;
+    color: #333;
     margin: 0 0;
     padding: 0;
     height: 100%;
 
 }
 
+#logo {
+    position: relative;
+    top: 8px;
+}
+
 /* START Main Header CSS */
 #main-header {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 2.75em;    
     text-align: center;
     margin: 0;
     padding-top: 0.25em;
+    color: #333;
 }
 
 #main-header a {
-    color: black;
+    color: #333;
     text-decoration: none;
 
 }
 
 #main-header a:visited {
-    color: black;
+    color: #333;
 }
 
 /* END Main Header CSS */
@@ -68,7 +82,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: red;
+    color: #8baaff;
 }
 
 nav a:visited {
