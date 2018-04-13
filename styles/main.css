@@ -103,7 +103,6 @@ p {
 /* Start main section of page*/
 .feature {
     background-color: #fff;
-    min-width: 50em;
     max-width: 70em;
     max-height: auto;
     margin: 2.5em auto;
