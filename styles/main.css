@@ -38,10 +38,10 @@ body {
     margin: 0;
     padding-top: 0.25em;
     color: #333;
+    font-size: 2.75em;
 }
 
 #main-header a {
-    font-size: 1.75em;
     color: #333;
     text-decoration: none;
 
@@ -186,10 +186,10 @@ form {
     height: 100%;
 }
 
-@media screen and (max-width: 26em) {
+@media screen and (max-width: 36em) {
     
-    #main-header a {
-        font-size: 3vw;
+    #main-header {
+        font-size: 10vw;
     }
 
 }
