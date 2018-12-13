@@ -1,0 +1,65 @@
+ /* start imports */
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ 
+  /* end imports */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    background-color: #f2f2f2;
+    color: #333;
+    height: 100%;
+}
+
+img#logo {
+    width: 140px;
+}
+
+hr {
+    margin: 2.3em 0;
+}
+
+ul.navbar-right > li > a {
+    margin-right: 2em;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+ul.navbar-right > li > a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 0.32px #333, 0 0 0.32px #333;
+
+}
+
+div.row div.col-sm-4 img {
+    width: 100%;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+.display-4, .display-2 {
+    margin-bottom: 0.7em;
+}
+
+.display-5 {
+    font-weight: 700;
+}
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row {
+    margin-bottom: 2.5em;
+}
+
+.message {
+    margin: 2em 0;
+}
