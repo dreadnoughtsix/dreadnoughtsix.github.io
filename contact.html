@@ -53,15 +53,17 @@
             </div>
         </div>
 	
-	<div class="row"> 
-		<div class="col-md-2 col-md-offset-5" id="map"> </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-5" id="map" style="height: 500px"> </div>
+		</div>
 	</div>
 	
 	<script>
 		function initMap() {
 			var location = {lat: 43.549870, lng: -79.663064};
 			var map = new google.maps.Map(document.getElementById("map"), {
-				zoom: 5,
+				zoom: 25,
 				center: location
 			});
 			
