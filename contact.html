@@ -52,6 +52,30 @@
                 </form>
             </div>
         </div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-offset-5" id="map" style="height: 500px; width: 100%"> </div>
+		</div>
+	</div>
+	
+	<script>
+		function initMap() {
+			var location = {lat: 43.549870, lng: -79.663064};
+			var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 19,
+				center: location
+			});
+			
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			})
+		}
+	</script>
+	
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRVF_RA06lBHiGJ2BjnomJJwnnvIfBwho&callback=initMap">
+	</script>
 
         <div id="spacing"></div>
         <footer></footer>
