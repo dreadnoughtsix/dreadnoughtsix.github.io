@@ -3,6 +3,11 @@
  
   /* end imports */
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4em;
@@ -12,7 +17,8 @@ body {
 }
 
 img#logo {
-    width: 140px;
+    width: 240px;
+    margin-top: 2em;
 }
 
 hr {
@@ -62,4 +68,18 @@ div.row div.col-sm-4 img {
 
 .message {
     margin: 2em 0;
+}
+
+footer.footer {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+footer.footer > div.container {
+    padding-right: 15px;
+    padding-left: 15px;
 }
