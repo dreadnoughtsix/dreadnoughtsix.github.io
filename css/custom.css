@@ -83,3 +83,33 @@ footer.footer > div.container {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+#maintenance-msg {
+    padding: 0 1em 0 1em;
+}
+
+/* Bigger than smartphones media query */
+@media screen and (min-width: 601px) {
+    img#logo {
+        width: 300px;
+    }
+    #maintenance-msg h2 {
+        font-size: 1.7em;
+    }
+    #maintenance-msg {
+        font-size: 1.2em;
+    }
+  }
+
+/* Smartphone media queries */
+@media screen and (max-width: 600px) {
+    img#logo {
+        width: 200px;
+    }
+    #maintenance-msg h2 {
+        font-size: 1.5em;
+    }
+    #maintenance-msg {
+        font-size: 0.8em;
+    }
+  }
